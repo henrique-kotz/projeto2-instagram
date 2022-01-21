@@ -34,6 +34,9 @@ strong {
     .top-bar .logo {
         display: flex;
     }
+        .top-bar .logo .mobile-only {
+            display: none;
+        }
         .top-bar .logo img {
             width: 103px;
             height: 29px;
@@ -100,23 +103,14 @@ main {
     display: none;
 }
     .stories .arrow {
-        width: 21px;
-        height: 21px;
-        border-radius: 50%;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+        font-size: 26px;
+        color: #fff;
+        filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.6));
 
         position: absolute;
         top: 42px;
         right: 5px;
     }
-        .stories .arrow ion-icon {
-            font-size: 26px;
-            color: #fff;
-
-            position: absolute;
-            top: -2.5px;
-            right: -2.5px;
-        }
     .stories .story {
         width: 66px;
         margin-right: 20px;
@@ -299,3 +293,7 @@ main {
         .sidebar .about-instagram p {
             margin-bottom: 18px;
         }
+
+.bottom-bar {
+    display: none;
+}

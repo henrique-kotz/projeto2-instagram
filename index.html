@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
     <div class="top-bar-container">
@@ -20,6 +21,7 @@
                 <ion-icon name="logo-instagram"></ion-icon>
                 <div class="vertical-border"></div>
                 <img src="media/images/logo.png" alt="logo-instagram">
+                <ion-icon name="paper-plane-outline" class="mobile-only"></ion-icon>
             </div>
             <input type="text" placeholder="Pesquisar">
             <div class="icons">
@@ -32,122 +34,120 @@
     </div>
 
     <main>
-        <div>
-        <section class="stories">
-            <div class="story">
-                <div>
-                    <img src="media/images/stories/thelongestjohns.jpeg" alt="stories-thelongestjohns">
+        <div class="container">
+            <section class="stories">
+                <div class="story">
+                    <div>
+                        <img src="media/images/stories/thelongestjohns.jpeg" alt="stories-thelongestjohns">
+                    </div>
+                    <p>thelongestjohns</p>
                 </div>
-                <p>thelongestjohns</p>
-            </div>
-            <div class="story">
-                <div>
-                    <img src="media/images/stories/meowed.png" alt="stories-meowed">
+                <div class="story">
+                    <div>
+                        <img src="media/images/stories/meowed.png" alt="stories-meowed">
+                    </div>
+                    <p>meowed</p>
                 </div>
-                <p>meowed</p>
-            </div>
-            <div class="story">
-                <div>
-                    <img src="media/images/stories/barked.png" alt="stories-barked">
+                <div class="story">
+                    <div>
+                        <img src="media/images/stories/barked.png" alt="stories-barked">
+                    </div>
+                    <p>barked</p>
                 </div>
-                <p>barked</p>
-            </div>
-            <div class="story">
-                <div>
-                    <img src="media/images/stories/nathanwpylestrangeplanet.png" alt="stories-nathanwpylestrangeplanet">
+                <div class="story">
+                    <div>
+                        <img src="media/images/stories/nathanwpylestrangeplanet.png" alt="stories-nathanwpylestrangeplanet">
+                    </div>
+                    <p>nathanwpylestrangeplanet</p>
                 </div>
-                <p>nathanwpylestrangeplanet</p>
-            </div>
-            <div class="story">
-                <div>
-                    <img src="media/images/stories/wawawiwacomics.png" alt="stories-wawawiwacomics">
+                <div class="story">
+                    <div>
+                        <img src="media/images/stories/wawawiwacomics.png" alt="stories-wawawiwacomics">
+                    </div>
+                    <p>wawawiwacomics</p>
                 </div>
-                <p>wawawiwacomics</p>
-            </div>
-            <div class="story">
-                <div>
-                    <img src="media/images/stories/respondeai.png" alt="stories-respondeai">
+                <div class="story">
+                    <div>
+                        <img src="media/images/stories/respondeai.png" alt="stories-respondeai">
+                    </div>
+                    <p>respondeai</p>
                 </div>
-                <p>respondeai</p>
-            </div>
-            <div class="story">
-                <div>
-                    <img src="media/images/stories/usgmen.jpeg" alt="stories-usgmen_gif">
+                <div class="story">
+                    <div>
+                        <img src="media/images/stories/usgmen.jpeg" alt="stories-usgmen_gif">
+                    </div>
+                    <p>usgmen_gif</p>
                 </div>
-                <p>usgmen_gif</p>
-            </div>
-            <div class="story">
-                <div>
-                    <img src="media/images/stories/memeriagourmet.png" alt="stories-memeriagourmet">
+                <div class="story">
+                    <div>
+                        <img src="media/images/stories/memeriagourmet.png" alt="stories-memeriagourmet">
+                    </div>
+                    <p>memeriagourmet</p>
                 </div>
-                <p>memeriagourmet</p>
-            </div>
 
-            <div class="arrow">
-                <ion-icon name="chevron-forward-circle"></ion-icon>
-            </div>
-        </section>
+                <ion-icon name="chevron-forward-circle" class="arrow"></ion-icon>
+            </section>
 
-        <section class="timeline">
-            <div class="post">
-                <div class="post-user">
-                    <div class="username">
-                        <img src="media/images/timeline/meowed.png" alt="meowed">
-                        <p>meowed</p>
-                    </div>
-                    <div class="options">
-                        <ion-icon name="ellipsis-horizontal"></ion-icon>
-                    </div>
-                </div>
-                <img src="media/images/timeline/smart-cat.png" alt="smart-cat">
-                <div class="post-bottom">
-                    <div class="icons">
-                        <div class="left">
-                            <ion-icon name="heart-outline"></ion-icon>
-                            <ion-icon name="chatbubble-outline"></ion-icon>
-                            <ion-icon name="paper-plane-outline"></ion-icon>
+            <section class="timeline">
+                <div class="post">
+                    <div class="post-user">
+                        <div class="username">
+                            <img src="media/images/timeline/meowed.png" alt="meowed">
+                            <p>meowed</p>
                         </div>
-                        <div class="right">
-                            <ion-icon name="bookmark-outline"></ion-icon>
+                        <div class="options">
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
                         </div>
                     </div>
-                    <div class="likes">
-                        <img src="media/images/timeline/respondeai.png" alt="respondeai">
-                        <p>Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong></p>
+                    <img src="media/images/timeline/smart-cat.png" alt="smart-cat">
+                    <div class="post-bottom">
+                        <div class="icons">
+                            <div class="left">
+                                <ion-icon name="heart-outline"></ion-icon>
+                                <ion-icon name="chatbubble-outline"></ion-icon>
+                                <ion-icon name="paper-plane-outline"></ion-icon>
+                            </div>
+                            <div class="right">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="likes">
+                            <img src="media/images/timeline/respondeai.png" alt="respondeai">
+                            <p>Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong></p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="post">
-                <div class="post-user">
-                    <div class="username">
-                        <img src="media/images/timeline/barked.png" alt="barked">
-                        <p>barked</p>
-                    </div>
-                    <div class="options">
-                        <ion-icon name="ellipsis-horizontal"></ion-icon>
-                    </div>
-                </div>
-                <img src="media/images/timeline/sleepy-doggo.png" alt="sleepy-doggo">
-                <div class="post-bottom">
-                    <div class="icons">
-                        <div class="left">
-                            <ion-icon name="heart-outline"></ion-icon>
-                            <ion-icon name="chatbubble-outline"></ion-icon>
-                            <ion-icon name="paper-plane-outline"></ion-icon>
+                <div class="post">
+                    <div class="post-user">
+                        <div class="username">
+                            <img src="media/images/timeline/barked.png" alt="barked">
+                            <p>barked</p>
                         </div>
-                        <div class="right">
-                            <ion-icon name="bookmark-outline"></ion-icon>
+                        <div class="options">
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
                         </div>
                     </div>
-                    <div class="likes">
-                        <img src="media/images/timeline/adorableanimals.png" alt="adorableanimals">
-                        <p>Curtido por <strong>adorableanimals</strong> e <strong>outras 99.159 pessoas</strong></p>
+                    <img src="media/images/timeline/sleepy-doggo.png" alt="sleepy-doggo">
+                    <div class="post-bottom">
+                        <div class="icons">
+                            <div class="left">
+                                <ion-icon name="heart-outline"></ion-icon>
+                                <ion-icon name="chatbubble-outline"></ion-icon>
+                                <ion-icon name="paper-plane-outline"></ion-icon>
+                            </div>
+                            <div class="right">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="likes">
+                            <img src="media/images/timeline/adorableanimals.png" alt="adorableanimals">
+                            <p>Curtido por <strong>adorableanimals</strong> e <strong>outras 99.159 pessoas</strong></p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </div>
+            </section>
+        </div>
 
         <aside class="sidebar">
             <div class="user">
@@ -220,6 +220,16 @@
             </div>
         </aside>
     </main>
+
+    <div class="bottom-bar-container">
+        <div class="bottom-bar">
+            <ion-icon name="home"></ion-icon>
+            <ion-icon name="search-outline"></ion-icon>
+            <ion-icon name="add-circle-outline"></ion-icon>
+            <ion-icon name="heart-outline"></ion-icon>
+            <ion-icon name="person-outline"></ion-icon>
+        </div>
+    </div>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
