@@ -172,6 +172,7 @@ main {
             .timeline .post .post-user .username img {
                 width: 32px;
                 height: 32px;
+                border-radius: 50%;
                 margin: 0 17px;
             }
             .timeline .post .post-user .username p {
@@ -185,19 +186,24 @@ main {
         width: 612px;
     }
     .timeline .post .post-bottom {
-        height: 79px;
+        font-size: 14px;
+        font-weight: 300;
         margin: 0 17px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
     }
         .timeline .post .icons {
+            height: 39px;
             display: flex;
             justify-content: space-between;
+            align-items: center;
         }
         .timeline .post .likes {
+            height: 30px;
             color: #000;
             display: flex;
+            align-items: center;
         }
             .timeline .post .likes img {
                 width: 20px;
@@ -205,6 +211,61 @@ main {
                 border-radius: 50%;
                 margin-right: 5px;
             }
+        .timeline .post .comments {
+            margin-top: 5px;
+        }
+            .timeline .post .comments .view-all {
+                margin-bottom: 10px;
+            }
+            .timeline .post .comments .comment {
+                height: 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+                .timeline .post .comments .comment ion-icon {
+                    font-size: 16px;
+                }
+            .timeline .post .comments .time {
+                font-size: 12px;
+                margin: 5px 0;
+            }
+        .timeline .post .add-comment {
+            height: 40px;
+            border-top: 1px solid #efefef;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+            .timeline .post .add-comment ion-icon {
+                margin: 0 17px;
+            }
+            .timeline .post .add-comment input {
+                flex-grow: 1;
+                height: 25px;
+                font-weight: 400;
+                border: none;
+                background-color: #fafafa;
+            }
+                .timeline .post .add-comment input:focus {
+                    outline: transparent;
+                }
+            .timeline .post .add-comment button {
+                height: 30px;
+                margin: 0 17px;
+                border: none;
+                color: #b2dffc;
+                background-color: #fff;
+                font-weight: bold;
+                transition: color 0.3s;
+            }
+                .timeline .post .add-comment button:hover {
+                    color: #0095f6;
+                    cursor: pointer;
+                }
+    .timeline .post video {
+        width: 612px;
+    }
 
 
 .sidebar {
