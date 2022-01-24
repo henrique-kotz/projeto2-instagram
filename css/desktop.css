@@ -264,13 +264,18 @@ main {
                     cursor: pointer;
                 }
     .timeline .post video {
-        width: 612px;
+        width: 100%;
+        height: auto;
     }
 
 
 .sidebar {
     width: 293px;
     margin-top: 88px;
+    margin-left: 642px;
+
+    position: fixed;
+    top: 0;
 }
     .sidebar .user {
         height: 100px;
